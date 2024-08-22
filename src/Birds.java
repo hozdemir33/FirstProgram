@@ -1,4 +1,4 @@
-public class Birds {
+public class Birds extends Animals{
 
     public String getName() {
         return name;
@@ -23,6 +23,12 @@ public class Birds {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public void flying(){
+
+    }
+
+
 
     private String name;
     private String color;
