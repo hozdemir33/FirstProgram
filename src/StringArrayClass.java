@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class StringArrayClass {
 
 
-    public static void main(String[] args) {
+    public static <integer> void main(String[] args) {
 
 
         String [] letters={"a","c","b"};
@@ -39,7 +39,43 @@ public class StringArrayClass {
         System.out.println(fruits);  // Output: [Apple, Banana, Orange]
 
 
+        System.out.println(fruits.contains("muz"));//false
+        System.out.println(fruits.contains("Apple"));//true
+
+        fruits.add("grapes");//adding grapes into the arraylist
+
+        System.out.println(fruits);
+
+
+
+        //How do you create an ArrayList to store integers in Java?
+        // Write a code snippet to demonstrate.
+
+        ArrayList<Integer> num=new ArrayList<>();
+
+        num.add(1);
+        num.add(2);
+        num.add(3);
+
+    //    System.out.println(num);
+
+        String h="apple";
+
+     for(String neFruitss:fruits ){
+         System.out.println(neFruitss);//OUTPUT is ::: Apple, Banana, Orange, grapes
+
+
+         if(neFruitss.equalsIgnoreCase(h)){
+             System.out.println("true");
+             break;
+
+         }else {
+             System.out.println("false");
+         }
+
+        }
+
+     }
 
     }
 
-}
