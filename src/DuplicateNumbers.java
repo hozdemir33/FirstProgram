@@ -14,7 +14,7 @@ public class DuplicateNumbers {
 
                 if(num[i]==num[j]){
 
-                    System.out.println("The dublicated numbers are::::"+ num[i]);
+                    System.out.println("The duplicated numbers are::::"+ num[i]);
 
 
                 }
