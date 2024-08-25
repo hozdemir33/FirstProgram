@@ -138,7 +138,7 @@ public class ArraysClass {
         System.out.println("Sum of the elements: " + sum); // Output the sum
 
 
-        int[] desOrder = { 1, 4, -1}; // descending order for these number
+        int[] desOrder = { 1, 4, 100}; // descending order for these number
 
         Arrays.sort(desOrder);
         System.out.println(Arrays.toString(desOrder)); //1,3,4,6 ascending numbers for now
@@ -152,11 +152,12 @@ public class ArraysClass {
 
             if(desOrder[i]>largest){
                 largest=desOrder[i];
-                System.out.println("The largest number:::"+largest);
+                System.out.println("The largest number:::"+ largest);
 
             }
 
         }
+
 
 
 
