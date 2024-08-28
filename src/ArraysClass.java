@@ -138,7 +138,7 @@ public class ArraysClass {
         System.out.println("Sum of the elements: " + sum); // Output the sum
 
 
-        int[] desOrder = { 1, 4, 100}; // descending order for these number
+        int[] desOrder = {1, 4, 100}; // descending order for these number
 
         Arrays.sort(desOrder);
         System.out.println(Arrays.toString(desOrder)); //1,3,4,6 ascending numbers for now
@@ -150,22 +150,22 @@ public class ArraysClass {
         // Step 2: Loop through the array to find the largest number
         for (int i = desOrder.length - 1; i >= 0; i--) {
 
-            if(desOrder[i]>largest){
-                largest=desOrder[i];
-                System.out.println("The largest number:::"+ largest);
+            if (desOrder[i] > largest) {
+                largest = desOrder[i];
+                System.out.println("The largest number:::" + largest);
 
             }
 
         }
 
-        int [] num1= {1,2,3,4,5, 20, 30}; //This is how you get the duplicate elements from  two seperate arrays
-        int [] num2={2,4,5,6,20,32,30};
+        int[] num1 = {1, 2, 3, 4, 5, 20, 30}; //This is how you get the duplicate elements from  two seperate arrays
+        int[] num2 = {2, 4, 5, 6, 20, 32, 30};
 
-        for(int i=0; i<num1.length; i++){
-            for(int j=0; j<num2.length; j++){
+        for (int i = 0; i < num1.length; i++) {
+            for (int j = 0; j < num2.length; j++) {
 
-                if(num1[i]==num2[j]){
-                    System.out.println("Duplicate numbers are ::"+num1[i]);
+                if (num1[i] == num2[j]) {
+                    System.out.println("Duplicate numbers are ::" + num1[i]);
 
                 }
 
@@ -173,7 +173,22 @@ public class ArraysClass {
 
         }
 
+        int[] number3 = {2, 9, 4, 5};//This is how you compare two int arrays to each other
+        int[] number4 = {2, 3, 4, 5};
+
+        //how to companre these two intergir arrays
+
+        Arrays.sort(number3);
+        Arrays.sort(number4);
+
+        if(Arrays.equals(number3,number4)){
+            System.out.println("true");
+
+        }else {
+            System.out.println("false");
+        }
     }
+
 }
 
 
