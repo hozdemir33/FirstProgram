@@ -158,9 +158,20 @@ public class ArraysClass {
 
         }
 
+        int [] num1= {1,2,3,4,5, 20, 30}; //This is how you get the duplicate elements from  two seperate arrays
+        int [] num2={2,4,5,6,20,32,30};
 
+        for(int i=0; i<num1.length; i++){
+            for(int j=0; j<num2.length; j++){
 
+                if(num1[i]==num2[j]){
+                    System.out.println("Duplicate numbers are ::"+num1[i]);
 
+                }
+
+            }
+
+        }
 
     }
 }

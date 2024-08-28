@@ -17,7 +17,7 @@ public class Vehicles {
 
         Cars c2=new Cars("Kia","Sedona",2010,"Blue");
 
-
+        System.out.println(c2.getColor()+" "+c2.getMake()+" "+c2.getModel()+" "+c2.getYear());
 
 
 

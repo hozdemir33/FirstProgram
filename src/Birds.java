@@ -25,7 +25,7 @@ public class Birds extends Animals{
     }
 
     public void flying(){
-
+        System.out.println("some birds fly like an acrobats");
     }
 
 
@@ -38,7 +38,9 @@ public class Birds extends Animals{
         this.name = name;
         this.color = color;
         this.age = age;
+
+
+
+
     }
-
-
 }
