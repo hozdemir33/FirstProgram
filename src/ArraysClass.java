@@ -152,7 +152,7 @@ public class ArraysClass {
 
             if (desOrder[i] > largest) {
                 largest = desOrder[i];
-                System.out.println("The largest number:::" + largest);
+                 System.out.println("The largest number:::" + largest);
 
             }
 
@@ -165,7 +165,7 @@ public class ArraysClass {
             for (int j = 0; j < num2.length; j++) {
 
                 if (num1[i] == num2[j]) {
-                    System.out.println("Duplicate numbers are ::" + num1[i]);
+                      System.out.println("Duplicate numbers are ::" + num1[i]);
 
                 }
 
@@ -176,20 +176,43 @@ public class ArraysClass {
         int[] number3 = {2, 9, 4, 5};//This is how you compare two int arrays to each other
         int[] number4 = {2, 3, 4, 5};
 
-        //how to companre these two intergir arrays
+        //how to Compare these two int arrays
 
         Arrays.sort(number3);
         Arrays.sort(number4);
 
-        if(Arrays.equals(number3,number4)){
+        if (Arrays.equals(number3, number4)) {
             System.out.println("true");
 
-        }else {
+        } else {
             System.out.println("false");
         }
+
+
+        int[] k = {2, -1, 0, 3, -55}; // how to find a smallest number with in the array
+
+        Arrays.sort(k);
+        System.out.println(Arrays.toString(k)); //  [-55, -1 , 0, 2 , 3 ]
+
+        int [] lowestNumberinArray={0};
+
+        for(int j =k.length-1; j<0; j--){
+
+           lowestNumberinArray=k;
+
+            if(lowestNumberinArray==k){
+                System.out.println("lowest num"+ lowestNumberinArray);
+
+            }
+        }
+
+
+
     }
 
 }
+
+
 
 
 
