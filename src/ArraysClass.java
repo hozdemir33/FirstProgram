@@ -188,29 +188,28 @@ public class ArraysClass {
             System.out.println("false");
         }
 
+          //THIS IS HOW YOU FIND THE LOWEST NUMBER IN AN ARRAY
 
-        int[] k = {2, -1, 0, 3, -55}; // how to find a smallest number with in the array
+                int[] k = {2, -1, 0, 3, -55}; // Array with numbers
 
-        Arrays.sort(k);
-        System.out.println(Arrays.toString(k)); //  [-55, -1 , 0, 2 , 3 ]
+                int lowestNumberinArray = k[0]; // Initialize with the first element of the array
 
-        int [] lowestNumberinArray={0};
+                for (int j = 1; j < k.length; j++) { // Correct loop condition and increment
 
-        for(int j =k.length-1; j<0; j--){
+                    if (k[j] < lowestNumberinArray) {
 
-           lowestNumberinArray=k;
+                        lowestNumberinArray = k[j]; // Update if the current element is smaller
 
-            if(lowestNumberinArray==k){
-                System.out.println("lowest num"+ lowestNumberinArray);
+                    }
+                }
+
+
+        System.out.println("The lowest number:::::: " + lowestNumberinArray);
 
             }
         }
 
 
-
-    }
-
-}
 
 
 
