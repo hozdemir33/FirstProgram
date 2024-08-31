@@ -44,7 +44,7 @@ public class ArraysClass {
             // System.out.println(knum);
         }
 
-//Mutidimentional arrays
+//Multidimensionals arrays
 
         int[][] matrix = {
                 {1, 2, 3},
@@ -203,8 +203,26 @@ public class ArraysClass {
                     }
                 }
 
-
         System.out.println("The lowest number:::::: " + lowestNumberinArray);
+
+
+                int [] h={1,2,3,-1,0,-7};//find the smallest number within the array.
+
+                 Arrays.sort(h);//  make sure to sort the array first and then user loop
+
+                int samllestNum= h[0];
+
+                for(int j=0;j<h.length;j++ ){
+
+                    if(samllestNum<h[j]){
+
+                    }
+
+                }
+        System.out.println("The smallest number is ::"+ samllestNum);
+
+
+
 
             }
         }
