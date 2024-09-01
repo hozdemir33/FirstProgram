@@ -222,6 +222,16 @@ public class ArraysClass {
         System.out.println("The smallest number is ::"+ samllestNum);
 
 
+                /*
+
+                This is how you create a new ARRAY
+
+                type[] name = new type[length];
+
+                int [] numbers=new int [5]; Something like this.
+
+
+                 */
 
 
             }
