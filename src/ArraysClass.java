@@ -1,5 +1,6 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.LinkedList;
 
 public class ArraysClass {
 
@@ -232,6 +233,30 @@ public class ArraysClass {
 
 
                  */
+
+        int [] b = {2,3,2,3,5,6,9,-1}; //FINDING THE SMALLEST NUMBER WITHIN THE ARRAYS
+
+        Arrays.sort(b);
+        System.out.println(Arrays.toString(b));
+
+        int m = b[0];
+
+        for(int i=0; i<b.length; i++){
+
+            if(m>b[i]){
+
+            }
+           // System.out.println("This is the smallest number::"+m);
+        }
+
+        System.out.println("This is the smallest number::"+m);
+
+        LinkedList<Integer> h1=new LinkedList<>();
+
+        h1.add(9);
+        h1.add(10);
+        h1.add(11);
+
 
 
             }
