@@ -1,4 +1,4 @@
-public class Cars {
+public class  Cars {
 
     public Cars(String make, String model, int year, String color) {
         this.make = make;
@@ -44,5 +44,9 @@ public class Cars {
     private String color;
     private String model;
     private String make;
+
+   public Cars(){
+
+    }
 
 }
