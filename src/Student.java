@@ -1,29 +1,19 @@
-public class Student {
+public class Student extends Human {
 
-    String name;
-    String lastName;
-    int age;
-
-    public int getSsn() {
-        return ssn;
-    }
-
-    public void setSsn(int ssn) {
-        this.ssn = ssn;
-    }
-
-    private int ssn;
-
-    public Student(String name, String lastName, int age) {
-        this.name = name;
-        this.lastName=lastName;
-        this.age=age;
-
-
-    }
+    String studentName;
 
     public Student(){
-
+        this.studentName="this is a student::";
     }
 
+    @Override
+    public void firstName() {
+        System.out.println("this is student first name");
+    }
+
+    @Override
+    public void lastName() {
+        System.out.println("this is last name of students");
+
+    }
 }
