@@ -1,46 +1,29 @@
 public class Birds extends Animals{
 
-    public String getName() {
-        return name;
+  // Bird class extends Animals
+
+   // The bird makes a chirping sound
+   void makeSound() {
+    System.out.println("Bird chirps: Tweet!");
+   }
+
+
+    // The bird moves by flying
+   void move() {
+    System.out.println("Bird flies in the sky.");
+
+
+     }
+
+    @Override
+    void mamals() {
+        System.out.println("Birds MAMALS...");
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void flying(){
-        System.out.println("some birds fly like an acrobats");
-    }
+    void bird(){
+         System.out.println("this is the birdy..");
+     }
 
 
+  }
 
-    private String name;
-    private String color;
-    public  int age;
-
-    public Birds(String name, String color, int age) {
-        this.name = name;
-        this.color = color;
-        this.age = age;
-
-
-
-
-    }
-}
