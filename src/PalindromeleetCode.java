@@ -2,7 +2,7 @@ public class PalindromeleetCode {
 
     public static void main(String[] args) {
 
-        int x = 111;
+        int x = 134;
         int rev = 0;
 
         while (x > 0) {
@@ -12,10 +12,7 @@ public class PalindromeleetCode {
             x = x / 10;
 
         }
-        if (x == rev) {
-            System.out.println("Palindrome");
-
-        }
+        System.out.println(rev);
     }
 }
 
