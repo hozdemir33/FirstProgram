@@ -1,5 +1,7 @@
-import java.lang.reflect.Array;
+import java.sql.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.LinkedList;
 
 public class ArraysClass {
@@ -259,7 +261,60 @@ public class ArraysClass {
 
 
 
+        int [] nn ={2,8,3,4,5,6}; //How to find the index value of target number within the array
+        int target=8;//index value of 1
+
+        //Arrays.sort(nn);
+
+        for (int i=0; i<nn.length; i++) {
+            if (target ==nn[i]) {
+                System.out.println("This is the correct index:::" + i);//index number is 1.
+
             }
+
+        }
+
+
+        //REVERSE AN ARRAY::
+
+        int [] ar1={1,2,3};  //How to reverse it.INPUT VALUE
+                                   //OUT PUT NEEDS TO BE [3,2,1]
+       // int [] j={};
+
+        int n5=  ar1.length;
+
+        int[] intArray = new int[5];
+
+
+
+
+
+       ArrayList<Integer>n1 = new ArrayList<Integer>();
+
+       n1.add(1);
+       n1.add(2);
+       n1.add(3);
+
+        System.out.println("First n1::"+ n1.reversed());
+
+       LinkedList <Integer> n2=new LinkedList<>(n1);
+
+
+        System.out.println("Second n2"+" "+ n2.reversed()); // OUTCOME::  [3,2,1]
+
+
+
+
+
+
+
+
+
+
+
+
+            }
+
         }
 
 
