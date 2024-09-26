@@ -37,7 +37,6 @@ public class Arrays1 {
 
         num2.add(4);
 
-
         System.out.println(num2);
 
 
