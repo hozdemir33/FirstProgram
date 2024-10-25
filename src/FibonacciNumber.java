@@ -2,7 +2,6 @@ public class FibonacciNumber {
 
     /*
 
-
     The Fibonacci numbers are very useful for introducing algorithms,
      so before we continue, here is a short introduction to Fibonacci numbers.
 
@@ -11,7 +10,6 @@ public class FibonacciNumber {
      The two first Fibonacci numbers are 0 and 1, and the next
      Fibonacci number is always the sum of the two previous numbers,
      so we get 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
-
 
      */
 
@@ -52,12 +50,7 @@ public class FibonacciNumber {
 
        System.out.println("This is the fibo num::" + " " +fibonumberSum+  ".");
 
-
-
         }
-
-
-
     }
 
 
